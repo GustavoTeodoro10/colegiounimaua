@@ -8,7 +8,9 @@
 <link rel="icon" href="assets/img/logo-unimaua-coc.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,7 +18,7 @@
 <header class="site-header">
   <div class="container">
     <a href="#inicio" class="brand" aria-label="Colégio UniMauá — início">
-      <img src="assets/img/logo-unimaua-coc.png" alt="Colégio UniMauá + Sistema COC">
+      <img src="assets/img/logo-unimaua-coc.png" alt="Colégio UniMauá + Sistema COC" width="1024" height="177">
     </a>
 
     <nav class="main-nav" id="main-nav">
@@ -31,9 +33,9 @@
     </nav>
 
     <div class="header-cta">
-      <a class="btn btn-primary" data-wa-msg="Olá! Vim do site e gostaria de saber mais sobre o Colégio UniMauá.">
+      <a class="btn btn-primary" data-wa-msg="Olá! Vim do site e gostaria de saber mais sobre o Colégio UniMauá." aria-label="Falar no WhatsApp">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.02 2C6.5 2 2.02 6.48 2.02 12c0 1.86.5 3.6 1.38 5.1L2 22l5.04-1.36A9.94 9.94 0 0 0 12.02 22C17.53 22 22 17.52 22 12S17.53 2 12.02 2Zm5.84 14.24c-.25.7-1.24 1.29-2.03 1.46-.55.11-1.26.2-3.66-.78-2.99-1.24-4.92-4.26-5.07-4.46-.15-.2-1.2-1.6-1.2-3.06 0-1.45.75-2.16 1.03-2.46.25-.27.6-.36.85-.36h.6c.2 0 .46-.02.7.55.25.6.86 2.06.94 2.21.08.15.13.32.02.52-.1.2-.15.32-.3.5-.15.17-.32.39-.46.52-.15.15-.31.31-.14.6.18.3.79 1.32 1.7 2.14 1.17 1.05 2.14 1.38 2.44 1.53.3.15.48.13.65-.08.18-.2.75-.88.95-1.18.2-.3.4-.25.68-.15.28.1 1.78.85 2.09 1 .3.15.5.23.57.36.08.13.08.75-.17 1.44Z"/></svg>
-        <span>WhatsApp</span>
+        <span aria-hidden="true">WhatsApp</span>
       </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -68,7 +70,7 @@
       </div>
 
       <div class="hero-visual reveal-item" style="animation-delay:.2s">
-        <img src="assets/img/cc.png" alt="Alunas do Colégio UniMauá sorrindo, segurando o material didático do Sistema COC">
+        <img src="assets/img/cc.webp" alt="Alunas do Colégio UniMauá sorrindo, segurando o material didático do Sistema COC" width="986" height="784" fetchpriority="high">
       </div>
     </div>
 
@@ -106,7 +108,7 @@
 
       <div class="diferenciais-grid">
         <div class="diferenciais-photo">
-          <img src="assets/img/gallery-5.jpg" alt="Alunos do UniMauá em aula prática de ciências, montando uma maquete de vulcão">
+          <img src="assets/img/gallery-5.webp" alt="Alunos do UniMauá em aula prática de ciências, montando uma maquete de vulcão" width="1100" height="1100" loading="lazy">
         </div>
 
         <div class="diferenciais-list">
@@ -239,42 +241,42 @@
           <ul class="filmstrip-track">
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-9817.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-9817.jpg" alt="Alunos em evento do Sistema COC, segurando o material didático" style="object-position:50% 15%">
+                <img src="assets/img/gallery-9817.webp" alt="Alunos em evento do Sistema COC, segurando o material didático" width="1100" height="1100" loading="lazy" style="object-position:50% 15%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/image4.png" target="_blank" rel="noopener">
-                <img src="assets/img/image4.png" alt="Alunos do Fundamental I em frente ao mural da escola" style="object-position:50% 25%">
+                <img src="assets/img/image4.webp" alt="Alunos do Fundamental I em frente ao mural da escola" width="1100" height="1100" loading="lazy" style="object-position:50% 25%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-2274.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-2274.jpg" alt="Alunos na quadra poliesportiva, com a bola em jogo" style="object-position:50% 35%">
+                <img src="assets/img/gallery-2274.webp" alt="Alunos na quadra poliesportiva, com a bola em jogo" width="1100" height="1100" loading="lazy" style="object-position:50% 35%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-2269.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-2269.jpg" alt="Espaço Desconecte-se, para guardar o celular e se conectar a novas ideias">
+                <img src="assets/img/gallery-2269.webp" alt="Espaço Desconecte-se, para guardar o celular e se conectar a novas ideias" width="1100" height="1100" loading="lazy">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/image-1.png" target="_blank" rel="noopener">
-                <img src="assets/img/image-1.png" alt="Turma reunida no playground indoor do colégio" style="object-position:50% 20%">
+                <img src="assets/img/image-1.webp" alt="Turma reunida no playground indoor do colégio" width="900" height="900" loading="lazy" style="object-position:50% 20%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-2276.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-2276.jpg" alt="Alunas no playground, atrás da rede de proteção" style="object-position:50% 5%">
+                <img src="assets/img/gallery-2276.webp" alt="Alunas no playground, atrás da rede de proteção" width="1100" height="1100" loading="lazy" style="object-position:50% 5%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-9836.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-9836.jpg" alt="Alunos do Sistema COC com o material didático Infinito" style="object-position:50% 35%">
+                <img src="assets/img/gallery-9836.webp" alt="Alunos do Sistema COC com o material didático Infinito" width="1100" height="1100" loading="lazy" style="object-position:50% 35%">
               </a>
             </li>
             <li class="filmstrip-slide">
               <a href="assets/img/gallery-5.jpg" target="_blank" rel="noopener">
-                <img src="assets/img/gallery-5.jpg" alt="Alunos em aula prática de ciências, montando uma maquete de vulcão" style="object-position:50% 0%">
+                <img src="assets/img/gallery-5.webp" alt="Alunos em aula prática de ciências, montando uma maquete de vulcão" width="1100" height="1100" loading="lazy" style="object-position:50% 0%">
               </a>
             </li>
           </ul>
@@ -450,7 +452,7 @@
     <div class="container">
       <div class="localizacao-grid">
         <div class="localizacao-photo">
-          <img src="assets/img/icon-33.png" alt="Fachada do Colégio UniMauá, na Rua São Bernardo do Campo, em Mauá">
+          <img src="assets/img/icon-33.webp" alt="Fachada do Colégio UniMauá, na Rua São Bernardo do Campo, em Mauá" width="680" height="453" loading="lazy">
         </div>
 
         <div>
@@ -500,7 +502,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="assets/img/logo-unimaua-coc.png" alt="Colégio UniMauá + Sistema COC">
+        <img src="assets/img/logo-unimaua-coc.png" alt="Colégio UniMauá + Sistema COC" width="1024" height="177">
         <p>Há mais de 30 anos impulsionando jornadas do amanhã em Mauá, com educação que integra inovação, valores humanos e excelência acadêmica.</p>
         <div class="footer-social">
           <a href="https://www.facebook.com/colegiounivmaua" target="_blank" rel="noopener" aria-label="Facebook do Colégio UniMauá">
@@ -516,7 +518,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>Navegação</h4>
+        <h3>Navegação</h3>
         <ul>
           <li><a href="#diferenciais">Diferenciais</a></li>
           <li><a href="#segmentos">Segmentos</a></li>
@@ -527,7 +529,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>Contato</h4>
+        <h3>Contato</h3>
         <ul>
           <li>(11) 94315-7377</li>
           <li><a href="https://www.instagram.com/colegiounimaua/" target="_blank" rel="noopener">@colegiounimaua</a></li>
@@ -535,7 +537,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>Localização</h4>
+        <h3>Localização</h3>
         <ul>
           <li>R. São Bernardo do Campo, 171</li>
           <li>Jardim Haydee, Mauá - SP</li>
